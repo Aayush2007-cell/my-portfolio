@@ -1,0 +1,132 @@
+/* General Reset */
+body {
+    background-color:#333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  header {
+    background: #004d99;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 20px;
+  }
+  
+  #about-bse, #portfolio {
+    background: #f4f4f4;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer styling */
+footer {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  justify-content: center; /* Center the content horizontally */
+  background-color:black;
+  color: white;
+  padding: 10px 0;
+  font-size: 14px;
+  gap: 15px; /* Space between logo and text */
+}
+
+#footer-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#footer-logo {
+  width: 30px; /* Adjust the logo size as needed */
+  height: auto;
+  margin-right: 10px; /* Space between logo and text */
+}
+
+/* Footer text styling */
+footer p {
+  margin: 0;
+}
+
+  
+  /* Responsive Design */
+  
+  /* On screens smaller than 768px (Tablets and Mobile) */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+  
+    nav ul {
+      text-align: center;
+      padding: 0;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  
+    #about-bse, #portfolio {
+      padding: 15px;
+      margin: 10px;
+      max-width: 100%;
+    }
+  
+    footer {
+      font-size: 0.9em;
+    }
+  }
+  
+  /* On screens smaller than 480px (Mobile phones) */
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.2em;
+    }
+  
+    nav ul li a {
+      font-size: 1em;
+    }
+  
+    section {
+      padding: 10px;
+    }
+  
+    #about-bse, #portfolio {
+      padding: 10px;
+      margin: 5px;
+    }
+  }
+  

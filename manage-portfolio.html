@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Portfolio</title>
+  <link rel="stylesheet" href="portfoliostyle.css">
+</head>
+<body>
+  <header>
+    <h1>Manage My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="index2.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="portfolio-management">
+    <h2>My Portfolio</h2>
+    <div>
+        <input type="text" id="stock-name" placeholder="Stock Name">
+        <input type="number" id="stock-quantity" placeholder="Quantity">
+        <input type="number" id="stock-price" placeholder="Price per Stock" step="0.01">
+        <button id="add-stock-btn">Add Stock</button>
+      </div>
+
+      <!-- Portfolio Summary Section -->
+    <div id="portfolio-summary">
+        <h3>Portfolio Summary:</h3>
+        <p id="total-value">Total Value: ₹0.00</p>
+        <p id="total-stocks">Total Stocks: 0</p>
+    </div>
+
+    <h3>Current Portfolio:</h3>
+    <ul id="portfolio-list"></ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 UiD. All rights reserved.</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
